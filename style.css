@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+  margin: 0;
+  background-image: url(assets/png/chill.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: 64px;
+  margin-bottom: 30px;
+  border: 0.1rem solid #000;
+  border-radius: 100%;
+}
+
+main {
+  max-width: 700px;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content {
+  background-color: #171717d5;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Alata', sans-serif;
+}
+
+p {
+  text-align: right;
+  color: #fff;
+  font-family: 'Alata', sans-serif;
+}
